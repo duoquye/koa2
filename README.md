@@ -9,10 +9,10 @@
 │   └── response.js
 └── package.json
 ```
-` application.js 是整个koa2 的入口文件，封装了context，request，response，以及最核心的中间件处理流程。
-` context.js 处理应用上下文，里面直接封装部分request.js和response.js的方法
-` request.js 处理http请求
-` response.js 处理http响应
+- application.js 是整个koa2 的入口文件，封装了context，request，response，以及最核心的中间件处理流程。
+- context.js 处理应用上下文，里面直接封装部分request.js和response.js的方法
+- request.js 处理http请求
+- response.js 处理http响应
 
 ## koa2 特性
 1. 只提供封装好 http 上下文、请求、响应，以及基于 async/await 的中间件容器。

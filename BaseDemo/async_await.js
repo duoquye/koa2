@@ -4,7 +4,7 @@
  * async/await 的特点
  *      让异步逻辑用同步写法实现
  *      最底层的 await 需要返回 Promise 对象
- *      可以通过多层 async function 的同步写法代替传统的callback嵌套
+ *      可以通过多层 async function 的同步写法代替传统的 callback 嵌套
  */
 
 
